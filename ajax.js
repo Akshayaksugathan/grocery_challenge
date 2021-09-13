@@ -18,9 +18,9 @@ function show_list(){
 function display(json){
     //console.log(json);
 
-     while(grocerry_lst.firstChild){
-         grocerry_lst.removeChild(grocerry_lst.firstChild);
-     }
+    //  while(grocerry_lst.firstChild){
+    //      grocerry_lst.removeChild(grocerry_lst.firstChild);
+    //  }
 
     json.forEach((row) => {
         //console.log(row);
